@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    background-color: #ff6600;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-aside, .right-aside, section {
+    flex: 0 0 30%;
+    padding: 10px;
+    margin-bottom: 10px; /* Ajusta el margen inferior */
+}
+.left-aside {
+    flex: 0 0 28%; /* Reduzco el ancho del left-aside */
+    margin-right: -250px;
+    margin-left: 50px; /* Ajusto el margen derecho del left-aside */
+    padding: 10px;
+
+}
+.left-aside ul li {
+    color: #007bff;
+    font-size: 18px;
+    margin-bottom: 8px; /* Reducción del margen inferior */
+}
+
+.left-aside ul li::before {
+    content: "● ";
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    color: #ff6600;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.block img {
+    width: 420px;
+    height: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
